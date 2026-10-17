@@ -2,7 +2,7 @@ nextflow.enable.dsl=2
 
 params.input_yaml  = null
 params.msa_dir     = null
-params.boltz_image = "289138883132.dkr.ecr.us-west-2.amazonaws.com/boltz:latest"
+params.boltz_image = "289138883132.dkr.ecr.us-east-1.amazonaws.com/boltz:latest"
 
 process BOLTZ_PREDICT {
     container params.boltz_image

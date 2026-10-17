@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-REGION=us-west-2
+REGION=us-east-1
 ACCT=289138883132
 REPO=boltz
 aws ecr create-repository --repository-name $REPO --region $REGION || true
