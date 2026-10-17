@@ -1,0 +1,4 @@
+{
+  "input_yaml": {"description": "S3 URI of the Boltz input YAML", "optional": false},
+  "msa_dir": {"description": "S3 URI of precomputed MSA files (optional)", "optional": true}
+}
