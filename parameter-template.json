@@ -1,4 +1,6 @@
 {
   "input_yaml": {"description": "S3 URI of the Boltz input YAML", "optional": false},
-  "msa_dir": {"description": "S3 URI of precomputed MSA files (optional)", "optional": true}
+  "boltz_image": {"description": "ECR URI of the Boltz image (output of build_and_push.sh)", "optional": false},
+  "msa_dir": {"description": "S3 URI of precomputed MSA files (optional). Reference them in the YAML by staged path, or use 'msa: empty'", "optional": true},
+  "use_msa_server": {"description": "Use the ColabFold MSA server (requires internet access)", "optional": true}
 }
